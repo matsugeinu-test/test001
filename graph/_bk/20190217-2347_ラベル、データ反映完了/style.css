@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    /* background-color: #EEE; */
+    font-size: 14px;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+div#input-form {
+    height: 30px;
+    background-color: #333;
+    color: #EEE;
+    padding: 4px;
+
+    position: fixed;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+
+    margin-top: 50px;
+}
+table td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+div#chart {
+    max-width: 600px;
+}

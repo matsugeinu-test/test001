@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>組織権限追加</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css" integrity="sha256-ncjDAd2/rm/vaNTqp7Kk96MfSeHACtbiDU9NWKqNuCI=" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="ui center aligend header" style="margin:3em;">
+        ユーザ権限追加
+    </div>
+    <div class="ui container">
+        <div class="ui segments">
+            <h4 class="ui top attached segmentblock header">
+                ユーザ
+            </h4>
+            <div class="ui attached segment">
+                <div class="ui form">
+                    <div class="field">
+                        <label>ユーザ名</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="ui form">
+                    <div class="field">
+                        <label>メールアドレス</label>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <h4 class="ui attached segment block header">
+                権限
+            </h4>
+            <div class="ui attached segment">
+                <div class="field">
+                    <label>権限</label>
+                    <div class="ui fluid selection dropdown">
+                        <input type="hidden" name="card[type]">
+                        <div class="default text">Type</div>
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div class="item">
+                                閲覧者
+                            </div>
+                            <div class="item">
+                                編集者
+                            </div>
+                            <div class="item">
+                                管理者
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui right aligned attached segment">
+                <div class="ui button">キャンセル</div>
+                <div class="ui button">変更を保存</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js" integrity="sha256-0gIvTkdsp0OOeV8tx3UTdi3ehppGwZbzQMvZJYhbzsE=" crossorigin="anonymous"></script>
+    <script>
+        $('.ui.dropdown')
+            .dropdown();
+    </script>
+</body>
+
+</html>
