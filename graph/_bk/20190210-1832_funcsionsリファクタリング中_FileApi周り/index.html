@@ -1,0 +1,42 @@
+
+<!-- template: https://coliss.com/articles/build-websites/operation/work/generic-html5-template-by-sixrevisions.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ファイルアップロード～jsでの読み込み</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+    <!-- Place your content here -->
+
+    <input type="file" name="file" id="file">
+    <input type="button" value="クリア" id="clear-btn">
+    <div id="result"></div>
+
+    <p>Chatr.js</p>
+    <canvas id="myChart"></canvas>
+
+    <div id="reference-pages" style="margin-top: 50px">
+        <label>参考ページ</label>
+        <ul>
+            <li><a target="_blank" href ="https://www.tam-tam.co.jp/tipsnote/javascript/post11736.html">File APIを使ってローカルのファイルを読み込んでみる ｜ Tips Note by TAM</a><li>
+        </ul>
+    </div>
+
+    <!-- SCRIPTS -->
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <!-- Example: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="./functions.js" charset="UTF-8"></script>
+</body>
+</html>

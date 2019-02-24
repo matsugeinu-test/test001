@@ -1,0 +1,52 @@
+
+<!-- template: https://coliss.com/articles/build-websites/operation/work/generic-html5-template-by-sixrevisions.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>グラフ生成</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+    <!-- Place your content here -->
+
+    <input type="file" name="file" id="file">
+    <div id="result"></div>
+
+    <p>Chatr.js</p>
+    <div id="chart">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <div id="reference-pages" style="margin-top: 50px">
+        <label>参考ページ</label>
+        <ul>
+                <li><a target="_blank" href ="https://www.tam-tam.co.jp/tipsnote/javascript/post11736.html">File APIを使ってローカルのファイルを読み込んでみる ｜ Tips Note by TAM</a></li>
+                <li><a target="_blank" href ="https://www.chartjs.org/docs/latest/">Chart.js · Chart.js documentation</a></li>
+                <li><a target="_blank" href ="https://misc.0o0o.org/chartjs-doc-ja/">Chart.js · Chart.js 日本語ドキュメント</a></li>
+                <li><a target="_blank" href ="https://cdnjs.com/libraries/Chart.js">Chart.js - cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!</a></li>
+                <li><a target="_blank" href ="https://www.webprofessional.jp/introduction-chart-js-2-0-six-examples/">グラフを手軽に描画できるChart.js 2.0の使い方（サンプルあり） - WPJ</a></li>
+                <li><a target="_blank" href ="https://qiita.com/Haruka-Ogawa/items/59facd24f2a8bdb6d369">Chart.jsでグラフを描画してみた - Qiita</a></li>
+                <li><a target="_blank" href ="https://app.codegrid.net/entry/file-api-filereader-api#toc-2">File API入門 - File APIとFileReader APIの利用 | CodeGrid</a></li>
+                <li><a target="_blank" href ="https://www.webtoolnavi.com/chart-js/">Chart.jsを使って、棒グラフ、折れ線グラフ、レーダーチャート、円グラフを表示しよう！（サンプル・解説付き） | Web制作ナビ</a></li>
+                <li><a target="_blank" href ="http://d.hatena.ne.jp/IT7C/20160211/1455152422">javascript 非破壊なArray.shift - イノベートな非日常</a></li>
+                <li><a target="_blank" href =""></a></li>
+        </ul>
+    </div>
+
+    <!-- SCRIPTS -->
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <!-- Example: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="./functions.js" charset="UTF-8"></script>
+</body>
+</html>
